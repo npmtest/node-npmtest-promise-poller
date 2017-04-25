@@ -1,6 +1,6 @@
 # npmtest-promise-poller
 
-#### test coverage for  [promise-poller (v1.5.2)](https://github.com/joeattardi/promise-poller)  [![npm package](https://img.shields.io/npm/v/npmtest-promise-poller.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-promise-poller) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-promise-poller.svg)](https://travis-ci.org/npmtest/node-npmtest-promise-poller)
+#### basic test coverage for  [promise-poller (v1.5.2)](https://github.com/joeattardi/promise-poller)  [![npm package](https://img.shields.io/npm/v/npmtest-promise-poller.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-promise-poller) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-promise-poller.svg)](https://travis-ci.org/npmtest/node-npmtest-promise-poller)
 
 #### A basic poller built on top of promises
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-promise-poller/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-promise-poller/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-promise-poller/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-promise-poller/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-promise-poller/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-promise-poller/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-promise-poller/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-promise-poller/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-promise-poller/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-promise-poller/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-promise-poller/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-promise-poller/build/coverage.html/index.html)
 
@@ -92,7 +92,8 @@
         "prepublish": "npm run build",
         "test": "npm run compile && jasmine JASMINE_CONFIG_PATH=jasmine.json"
     },
-    "version": "1.5.2"
+    "version": "1.5.2",
+    "bin": {}
 }
 ```
 
